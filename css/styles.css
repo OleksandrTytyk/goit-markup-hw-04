@@ -175,6 +175,15 @@ body {
 }
 
 /* Герой */
+.hero {
+  background-color: var(--secondary-font-color);
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(../images/hero-img.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 1600px;
+}
+
 .section.hero {
   background-color: var(--secondary-font-color);
 
@@ -219,9 +228,24 @@ body {
 .hero-btn:hover,
 .hero-btn:focus {
   background-color: var(--hero-button-hover);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
 }
 
 /* Особливості */
+
+.features-icon {
+  width: 270px;
+  height: 120px;
+  border-radius: 4px;
+  background-color: var(--section-font-color);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+  color: #ffffff;
+}
 
 .features-title {
   font-size: 14px;
@@ -248,7 +272,6 @@ body {
 .features-item {
   margin-right: 30px;
   flex-basis: calc(100% / 4 - 30px);
-  
 }
 
 /* Чим ми займаємося */
