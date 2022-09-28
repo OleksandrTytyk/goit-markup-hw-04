@@ -354,15 +354,14 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
 
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
 }
 
 .team-icon {
   display: flex;
   justify-content: center;
   gap: 10px;
-  /* justify-content: center;
-  gap: 10px; */
+  padding: 16px 32px 30px 32px;
 }
 
 .team-soc-link {
@@ -526,6 +525,45 @@ body {
   display: inline-block;
 
   color: var(--transparent-white-color);
+}
+
+.footer-soc {
+  outline: 4px dotted red;
+}
+
+.footer-soc-text {
+  display: block;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  margin-bottom: 20px;
+  color: var(--white-text-color);
+}
+
+.footer-soc-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  color: var(--primary-font-color);
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.footer-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  gap: 10px;
+}
+.footer-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .footer-mail:hover,
