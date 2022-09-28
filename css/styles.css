@@ -155,6 +155,8 @@ body {
   letter-spacing: 0.02em;
 
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .contacts-item:not(:last-child) {
@@ -244,6 +246,7 @@ body {
   align-items: center;
   justify-content: center;
   margin-bottom: 30px;
+  padding: 25px 100px;
   color: #ffffff;
 }
 
@@ -354,6 +357,30 @@ body {
   margin-bottom: 30px;
 }
 
+.team-icon {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  /* justify-content: center;
+  gap: 10px; */
+}
+
+.team-soc-link {
+  display: flex;
+  height: 44px;
+  width: 44px;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+
+  background-color: var(--accent-color);
+  color: var(--primary-font-color);
+}
+
+.team-soc-icon {
+  width: 20px;
+  height: 20px;
+}
 /* Фільтри */
 
 .filter-list {
@@ -429,6 +456,34 @@ body {
   line-height: 1.88;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
+}
+
+/* Постійні клієнти */
+
+.clients-title {
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+
+  color: var(--secondary-text-color);
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.clients-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 30px;
+}
+
+.clients-icon {
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  padding: 16px 32px;
 }
 
 /* Підвал */
