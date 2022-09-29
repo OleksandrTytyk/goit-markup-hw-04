@@ -318,7 +318,6 @@ body {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .team-item:not(:last-child) {
@@ -386,6 +385,7 @@ body {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .filter-item:not(:last-child) {
@@ -418,6 +418,10 @@ body {
 
 /* Проекти */
 
+.project-link {
+
+}
+
 .project-list {
   display: flex;
   flex-wrap: wrap;
@@ -425,7 +429,7 @@ body {
   margin: 0;
   margin-right: calc(-1 * var(--card-set-gap));
   margin-bottom: calc(-1 * var(--card-set-gap));
-}
+  }
 
 .project-box {
   padding: 20px 24px;
@@ -439,6 +443,7 @@ body {
   flex-basis: calc(100% / 3 - 30px);
   margin-right: var(--card-set-gap);
   margin-bottom: var(--card-set-gap);
+  
 }
 
 .project-title {
