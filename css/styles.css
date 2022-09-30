@@ -155,8 +155,7 @@ body {
   letter-spacing: 0.02em;
 
   display: flex;
-  justify-content: center;
-  align-items: baseline;
+  margin-left: auto;
 }
 
 .contacts-item:not(:last-child) {
@@ -170,7 +169,16 @@ body {
 
   padding-top: 32px;
   padding-bottom: 32px;
+  display: flex;
+  align-items: center;
 }
+
+.mail-icon,
+.tel-icon {
+  fill: currentColor;
+  margin-right: 10px;
+}
+
 
 .contacts-item a:hover,
 .contacts-item a:focus {
