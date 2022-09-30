@@ -156,7 +156,7 @@ body {
 
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: baseline;
 }
 
 .contacts-item:not(:last-child) {
